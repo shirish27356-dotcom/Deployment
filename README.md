@@ -1,6 +1,5 @@
 # Deployments and observability
 
-A classroom lab built from [NisargKadam/Deployment_Dockerization](https://github.com/NisargKadam/Deployment_Dockerization).
 The Humanizer app runs a bounded LangGraph rewrite/review workflow. Students investigate it in
 LangSmith, build a Docker image, run a container, and deploy to Railway. Azure and AWS include optional CLI deployment walkthroughs; no cloud infrastructure is provisioned by generating the guide.
 
@@ -180,7 +179,7 @@ The classroom version is on branch `class/deployments-observability`. Students s
 git clone --branch class/deployments-observability https://github.com/NisargKadam/Deployment_Dockerization.git
 ```
 
-## Prepared instructor session (2 October 2026)
+
 
 - Live OpenAI app: http://localhost:8010 (the current private `.env` selects live mode).
 - Docker rehearsal: http://localhost:8011 (`humanizer-class`, `humanizer-lab:1.0`, explicit demo-mode override).
